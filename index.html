@@ -4,7 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Cours particuliers en ligne de mathématiques, physique et chimie, du CE1 à la Terminale. Cours individuels ou en petits groupes de 5 élèves maximum.">
-  <meta name="theme-color" content="#102a24">
+  <meta name="theme-color" content="#0b2b22">
+  <meta property="og:title" content="La Classe de Cyrille | Cours particuliers en ligne">
+  <meta property="og:description" content="Mathématiques, physique et chimie du CE1 à la Terminale, en cours individuels ou en petits groupes.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/banner.png">
   <title>La Classe de Cyrille | Cours particuliers en ligne</title>
   <link rel="icon" type="image/png" href="assets/logo.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,6 +33,7 @@
 
       <nav id="navigation" class="main-nav" aria-label="Navigation principale">
         <a href="#cours">Les cours</a>
+        <a href="#apropos">À propos</a>
         <a href="#tarif">Tarif</a>
         <a href="#avis">Avis</a>
         <a href="#contact">Contact</a>
@@ -36,6 +41,12 @@
       </nav>
     </div>
   </header>
+
+  <div class="top-banner" aria-label="Bannière La Classe de Cyrille">
+    <div class="container">
+      <img src="assets/banner.png" alt="La Classe de Cyrille — mathématiques, physique et chimie en ligne">
+    </div>
+  </div>
 
   <main id="contenu">
     <section id="accueil" class="hero">
@@ -50,7 +61,7 @@
           </div>
           <ul class="hero-points" aria-label="Points essentiels">
             <li>25 € / heure</li>
-            <li>En ligne</li>
+            <li>Cours en ligne</li>
             <li>Du CE1 à la Terminale</li>
           </ul>
         </div>
@@ -73,11 +84,14 @@
       </div>
     </section>
 
-    <section class="banner-section" aria-label="Univers La Classe de Cyrille">
-      <div class="container reveal">
-        <img src="assets/banner.png" alt="Bannière La Classe de Cyrille avec tableau, formules de mathématiques, physique et chimie">
+    <section class="trust-strip" aria-label="Points de confiance">
+      <div class="container trust-grid">
+        <div><strong>88 avis</strong><span>Note moyenne 5/5</span></div>
+        <div><strong>5 élèves max.</strong><span>Petits groupes pour un vrai suivi</span></div>
+        <div><strong>100 % en ligne</strong><span>Accessible partout dans le monde</span></div>
       </div>
     </section>
+
 
     <section id="cours" class="section">
       <div class="container">
@@ -117,43 +131,166 @@
       </div>
     </section>
 
+    <section id="apropos" class="section section-about">
+      <div class="container about-grid">
+        <div class="about-photo reveal">
+          <img src="assets/photo.jpg" alt="Cyrille Feugang, professeur de mathématiques, physique et chimie">
+          <div class="about-badge"><strong>Cyrille Feugang</strong><span>Ingénieur et professeur particulier</span></div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">À propos</span>
+          <h2>Des sciences expliquées avec méthode et bienveillance</h2>
+          <p>Bonjour et bienvenue ! Je m’appelle <strong>Cyrille Feugang</strong>. Ingénieur en mécatronique, titulaire d’une maîtrise en Physique et d’un Master en Sciences économiques et gestion, j’accompagne depuis plusieurs années des élèves du CE1 à la Terminale en Mathématiques, Physique et Chimie.</p>
+          <p>Ma mission est de rendre les sciences accessibles, compréhensibles et même agréables. J’adapte mes explications au niveau et au rythme de chaque élève, avec des méthodes simples, structurées et personnalisées.</p>
+          <p>Mon objectif est d’aider chaque élève à gagner en confiance, à surmonter ses difficultés et à progresser durablement.</p>
+          <div class="about-values">
+            <span>Explications claires</span>
+            <span>Méthode personnalisée</span>
+            <span>Progression durable</span>
+          </div>
+          <a class="button button-primary" href="#contact">Discuter de vos besoins</a>
+        </div>
+      </div>
+    </section>
+
     <section id="tarif" class="section section-soft">
       <div class="container pricing-grid">
         <div class="pricing-copy reveal">
           <span class="eyebrow">Un tarif simple</span>
           <h2>25 € pour une heure de cours</h2>
           <p>Le créneau est définitivement confirmé après réception du paiement.</p>
+          <ul class="pricing-list">
+            <li>Cours individuel ou petit groupe</li>
+            <li>Lien Google Meet envoyé automatiquement</li>
+            <li>Réservation depuis le planning en ligne</li>
+          </ul>
           <a class="button button-primary" href="https://calendar.app.google/67fJSmLP7imWwG347" target="_blank" rel="noopener">Choisir un créneau</a>
         </div>
 
         <div class="payment-card reveal">
-          <div class="paypal-mark" aria-hidden="true">P</div>
+          <div class="paypal-mark"><img src="assets/paypal.png" alt="PayPal"></div>
           <div>
             <span class="payment-label">Paiement via PayPal</span>
             <h3>Règlement simple et rapide</h3>
           </div>
-          <p>Après votre réservation, connectez-vous à PayPal et envoyez le règlement à l'adresse suivante :</p>
+          <p>Après votre réservation, connectez-vous à PayPal et envoyez le règlement à l’adresse ci-dessous. Cette adresse est réservée uniquement aux paiements PayPal :</p>
           <div class="payment-email">
             <code id="paypal-email">csipeuwou@yahoo.fr</code>
             <button id="copy-email" type="button">Copier</button>
           </div>
           <a class="button button-paypal" href="https://www.paypal.com/signin" target="_blank" rel="noopener">Ouvrir PayPal</a>
-          <small>Indiquez le nom de l'élève et la date du cours dans le message du paiement.</small>
+          <small>Indiquez le nom de l'élève ainsi que la date et l'heure du cours dans le message du paiement.</small>
         </div>
       </div>
     </section>
 
-    <section id="avis" class="section">
+    <section id="avis" class="section reviews-section">
       <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow">Avis des familles</span>
-          <h2>La confiance se construit cours après cours</h2>
-          <p>Les premiers témoignages seront publiés ici après accord des familles.</p>
+        <div class="reviews-heading reveal">
+          <div>
+            <span class="eyebrow">Avis des familles et des élèves</span>
+            <h2>88 évaluations, toutes notées 5/5</h2>
+            <p>Les avis défilent automatiquement. Vous pouvez également utiliser les flèches pour les parcourir.</p>
+          </div>
+          <div class="reviews-score" aria-label="Note moyenne 5 sur 5, 88 avis">
+            <strong>5/5</strong>
+            <span class="stars">★★★★★</span>
+            <small>88 avis</small>
+          </div>
         </div>
-        <div class="empty-review reveal">
-          <div class="stars" aria-hidden="true">★★★★★</div>
-          <h3>Les avis arrivent bientôt</h3>
-          <p>Après chaque cours, les familles pourront partager leur expérience.</p>
+
+        <div class="reviews-carousel reveal" data-carousel aria-roledescription="carrousel" aria-label="Avis clients">
+          <button class="carousel-button carousel-prev" type="button" aria-label="Afficher les avis précédents">‹</button>
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+            <article class="review-slide" aria-label="Avis de Nathan, 5 étoiles">
+              <span class="review-name">Nathan</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment">“Cyrille est un formateur incroyable. Très pédagogue, il maîtrise parfaitement son sujet et sait transmettre son savoir de manière claire et efficace.”</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Yvette Manuela, 5 étoiles">
+              <span class="review-name">Yvette Manuela</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment">“Très excellente approche. Cyrille comprend facilement mes difficultés. Merci infiniment Cyrille.”</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Mathis, 5 étoiles">
+              <span class="review-name">Mathis</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment">“Top ! Il explique simplement et bien. Les mathématiques sont devenues une de mes matières préférées grâce à lui.”</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Chris, 5 étoiles">
+              <span class="review-name">Chris</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Charles, 5 étoiles">
+              <span class="review-name">Charles</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Cyrille est un formateur incroyable. Un vrai « skill killer « .</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Gysèle, 5 étoiles">
+              <span class="review-name">Gysèle</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Mélina, 5 étoiles">
+              <span class="review-name">Mélina</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment">“Très bonne pédagogie, compétent et sérieux.”</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Édouard, 5 étoiles">
+              <span class="review-name">Édouard</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Blandine, 5 étoiles">
+              <span class="review-name">Blandine</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment">“Il est parfait ! Un professeur qui a une très bonne méthode pour faire comprendre le cours. Je vous le conseille.”</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Adrien, 5 étoiles">
+              <span class="review-name">Adrien</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Marcus, 5 étoiles">
+              <span class="review-name">Marcus</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment">“Cyrille donne l’envie d’apprendre. Ma fille fait d’énormes progrès et prend plaisir à apprendre. Je le recommande sans hésitation.”</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Axel, 5 étoiles">
+              <span class="review-name">Axel</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Yassine, 5 étoiles">
+              <span class="review-name">Yassine</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Evan, 5 étoiles">
+              <span class="review-name">Evan</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            <article class="review-slide" aria-label="Avis de Joanne, 5 étoiles">
+              <span class="review-name">Joanne</span>
+              <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
+              <p class="review-comment review-comment-empty">Une note de 5/5 laissée après un cours.</p>
+            </article>
+            </div>
+          </div>
+          <button class="carousel-button carousel-next" type="button" aria-label="Afficher les avis suivants">›</button>
+          <div class="carousel-dots" aria-label="Navigation des avis"></div>
+        </div>
+
+        <div class="review-invitation reveal">
+          <div>
+            <span class="eyebrow">Votre retour compte</span>
+            <h3>Vous avez suivi un cours avec Cyrille ?</h3>
+            <p>Vous pouvez laisser uniquement une note ou ajouter un commentaire. Le formulaire s’ouvre dans un nouvel onglet.</p>
+          </div>
+          <a class="button button-primary" href="https://forms.gle/2MXQSBM5BzGKWEa3A" target="_blank" rel="noopener">⭐ Laisser un avis</a>
         </div>
       </div>
     </section>
@@ -163,23 +300,31 @@
         <div class="contact-copy reveal">
           <span class="eyebrow">Une question avant de réserver ?</span>
           <h2>Écrivez-moi simplement</h2>
-          <p>Présentez brièvement le niveau de l'élève, ses difficultés et votre besoin. Je vous répondrai par e-mail.</p>
-          <a class="contact-email" href="mailto:csipeuwou@yahoo.fr">csipeuwou@yahoo.fr</a>
+          <p>Présentez brièvement le niveau de l’élève, ses difficultés et votre besoin. Je vous répondrai par e-mail.</p>
+          <div class="contact-promise">
+            <strong>Un premier échange sans engagement</strong>
+            <span>Je vous réponds personnellement avec une proposition adaptée au niveau de votre enfant.</span>
+          </div>
         </div>
 
         <form id="contact-form" class="contact-form reveal">
-          <label for="name">Nom</label>
-          <input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="nom">Nom</label>
+          <input id="nom" name="nom" type="text" autocomplete="name" required>
 
           <label for="email">Adresse e-mail</label>
           <input id="email" name="email" type="email" autocomplete="email" required>
 
-          <label for="level">Niveau de l'élève</label>
-          <select id="level" name="level" required>
+          <label for="niveau">Niveau de l'élève</label>
+          <select id="niveau" name="niveau" required>
             <option value="">Choisir un niveau</option>
-            <option>Primaire</option>
-            <option>Collège</option>
-            <option>Lycée</option>
+            <option>CE1 à CM2</option>
+            <option>6e</option>
+            <option>5e</option>
+            <option>4e</option>
+            <option>3e</option>
+            <option>Seconde</option>
+            <option>Première</option>
+            <option>Terminale</option>
           </select>
 
           <label for="message">Votre message</label>
@@ -193,25 +338,49 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-grid">
+    <div class="container footer-grid footer-grid-pro">
       <div class="footer-brand">
         <img src="assets/logo.png" alt="">
-        <div><strong>La Classe de Cyrille</strong><span>Cours particuliers en ligne</span></div>
+        <div><strong>La Classe de Cyrille</strong><span>Comprendre, progresser, réussir.</span></div>
       </div>
-      <p>Mathématiques · Physique · Chimie<br>Du CE1 à la Terminale</p>
+      <div class="footer-contact">
+        <a href="tel:+33771854804">+33 (0)7 71 85 48 04</a>
+        <a href="mailto:cyrillefeugang361@gmail.com">cyrillefeugang361@gmail.com</a>
+        <span>SIRET : 103 958 740 00013</span>
+      </div>
       <div class="footer-links">
-        <a href="#accueil">Accueil</a>
-        <a href="#contact">Contact</a>
-        <a href="https://calendar.app.google/67fJSmLP7imWwG347" target="_blank" rel="noopener">Réserver</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="politique-confidentialite.html">Politique de confidentialité</a>
+        <button class="footer-cookie-button" id="cookie-settings" type="button">Gérer les cookies</button>
       </div>
     </div>
     <div class="container footer-bottom">
-      <span>© <span id="year"></span> La Classe de Cyrille</span>
-      <span>Site hébergé sur GitHub Pages</span>
+      <span>© 2026 La Classe de Cyrille</span>
+      <span>Tous droits réservés.</span>
     </div>
   </footer>
 
+  <a class="whatsapp-float" href="https://wa.me/33771854804?text=Bonjour%20Cyrille%2C%20je%20souhaite%20obtenir%20des%20renseignements%20concernant%20les%20cours%20de%20soutien." target="_blank" rel="noopener" aria-label="Contacter Cyrille sur WhatsApp">
+    <img src="assets/whatsapp.png" alt="" aria-hidden="true"><strong>WhatsApp</strong>
+  </a>
+
+
+  <section class="cookie-banner" id="cookie-banner" aria-label="Choix des cookies" hidden>
+    <div class="cookie-banner-inner">
+      <div>
+        <strong>Mesure d’audience</strong>
+        <p>Avec votre accord, Google Analytics nous aide à connaître le nombre de visites. Vous pouvez accepter ou refuser sans conséquence sur l’utilisation du site.</p>
+        <a href="politique-confidentialite.html#mesure-audience">En savoir plus</a>
+      </div>
+      <div class="cookie-actions">
+        <button class="button button-secondary" id="cookie-refuse" type="button">Refuser</button>
+        <button class="button button-primary" id="cookie-accept" type="button">Accepter</button>
+      </div>
+    </div>
+  </section>
+
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="js/analytics.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
