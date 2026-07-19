@@ -240,9 +240,10 @@ h1 span { color: var(--green-700); }
 
 /* Logos PayPal et WhatsApp */
 .paypal-mark { display: flex; align-items: center; justify-content: flex-start; width: 100%; height: auto; background: transparent; border-radius: 0; margin-bottom: 4px; }
-.paypal-mark img { display: block; width: min(210px, 58%); height: auto; object-fit: contain; }
+.paypal-mark img { display: block; width: 108px; max-width: 34%; height: auto; object-fit: contain; }
 .whatsapp-float img { width: 30px; height: 30px; object-fit: contain; flex: 0 0 auto; }
 @media (max-width: 600px) {
+  .paypal-mark img { width: 92px; max-width: 38%; }
   .whatsapp-float strong { display: none; }
   .whatsapp-float { width: 54px; height: 54px; min-height: 54px; padding: 0; justify-content: center; border-radius: 50%; }
   .whatsapp-float img { width: 34px; height: 34px; }

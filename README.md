@@ -15,3 +15,12 @@ Cette version inclut :
 Remplacez le contenu du dépôt GitHub Pages par le contenu de ce dossier, puis validez et poussez les changements avec GitHub Desktop.
 
 Les nouvelles réponses du formulaire Google ne sont pas encore publiées automatiquement sur le site. Elles restent consultables dans Google Forms / Google Sheets et peuvent être ajoutées au site après validation.
+
+
+Mise à jour V6.1 : logo PayPal réduit pour un affichage plus discret sur ordinateur et mobile.
+
+
+## Version V7
+- Domaine personnalisé : https://laclassedecyrille.fr
+- Nouveau logo PayPal officiel, affiché en format discret.
+- Métadonnées SEO et partage social mises à jour.
